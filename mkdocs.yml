@@ -1,0 +1,41 @@
+site_name: Coronary Intervention Living Book
+site_description: An evolving educational reference on coronary intervention materials, devices, techniques, evidence, and daily news updates.
+site_url: https://ratking2383.github.io/coronary-intervention-book/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Living Book:
+      - Overview: book/index.md
+      - Vascular Access: book/vascular-access.md
+      - Diagnostic Catheters: book/diagnostic-catheters.md
+      - Guidewires: book/guidewires.md
+      - Balloons and Stents: book/balloons-and-stents.md
+      - Calcium Modification: book/calcium-modification.md
+      - Imaging and Physiology: book/imaging-and-physiology.md
+      - Thrombectomy and Support: book/thrombectomy-and-support.md
+      - Complications and Safety: book/complications-and-safety.md
+  - Daily News:
+      - News Archive: news/index.md
+      - First Draft: news/2026-10-29-project-launch.md
+  - References: references.md
+  - Disclaimer: disclaimer.md
